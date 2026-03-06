@@ -33,6 +33,3 @@ A full-stack research paper search engine built on a local index of 7,000+ arXiv
 ### Data
 - **arXiv API** — source for paper ingestion
 
-
-        └── PaperDetail.jsx  # Paper detail page
-```
