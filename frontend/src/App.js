@@ -109,6 +109,7 @@ export default function App() {
       }
     })();
     return () => { cancelled = true; };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [committedQuery, page, pageSize, sort, mode]);
 
   useEffect(() => {
