@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState, useCallback, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import "./App.css";
 
-const API_BASE = "http://localhost:3001";
+const API_BASE = "https://arxiv-search.onrender.com";
 
 const SUGGESTIONS = [
   "transformer attention", "diffusion models", "reinforcement learning",
